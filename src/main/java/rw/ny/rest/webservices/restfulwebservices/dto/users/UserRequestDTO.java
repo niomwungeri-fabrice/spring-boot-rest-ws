@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Size;
 import java.io.Serializable;
 
 public class UserRequestDTO implements Serializable {
-    @Size(min=2)
+    @Size(min=2, message = "name should have at least 2 characteristics")
     private String name;
 
     public UserRequestDTO() {

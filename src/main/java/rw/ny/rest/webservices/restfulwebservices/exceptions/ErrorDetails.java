@@ -12,6 +12,7 @@ public class ErrorDetails {
         this.timeStamp = timestamp;
         this.message = message;
         this.details = details;
+
     }
 
     public LocalDateTime getTimeStamp() {
